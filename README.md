@@ -18,13 +18,13 @@ CoinGecko API
        ▼
 ┌─────────────┐
 │   SILVER    │  Limpeza, tipagem, deduplicação → Delta Table
-│  (Curada)   │  projetos.crypto.silver_market_data
+│  (Process)  │  projetos.crypto.silver_market_data
 └──────┬──────┘
        │
        ▼
 ┌─────────────┐
 │    GOLD     │  Regras de negócio + métricas → Delta Table (MERGE/Upsert)
-│  (Analítica)│  projetos.crypto.gold_market_data
+│ (Analítica) │  projetos.crypto.gold_market_data
 └─────────────┘
 ```
 
